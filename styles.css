@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styling to your resume website */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media only screen and (min-width: 790px) {
+  nav ul {
+  list-style: none;
+  margin-top: 45%;
+  margin-bottom: 4%;  }
+  div {
+    margin-bottom: 3%;
+    margin-top: 2%;}
+}
+
+
+@media only screen and (max-width: 790px) {
+  nav ul {
+  list-style: none;
+  margin-top: 60%;
+  margin-bottom: 3%;  }
+  div {
+    margin-top: 3%;
+    margin-bottom: 1%;}
+}
+
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.experience-list, .project-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience-list li, .project-list li {
+  margin-bottom: 20px;
+}
+
+.project-list h3 {
+  color: #007bff;
+  margin-bottom: 5px;
+}
